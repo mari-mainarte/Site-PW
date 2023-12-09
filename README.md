@@ -18,3 +18,6 @@ https://github.com/iuricode/padroes-de-commits
 
 -Para excluir um arquivo ou pasta-
 git rm -r <arquivo> ou <pasta>
+
+Caso o seu repositório local esteja desatualizado o comando para resolver isso é:
+git pull
