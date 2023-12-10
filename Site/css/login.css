@@ -1,137 +1,227 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: #2e2e2e;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-}
-
-#nav{
-    width: 100%;
-    height: 7vw;
+.card{
     background-color: black;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    align-items: center;
-}
-
-#ag_logo{
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
     position: absolute;
-    width: 9%;
-    height: 100%;
-    color: black;
-    margin-left: 1vw;
-}
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bakbak One', sans-serif;
+    font-family: 'Inter', sans-serif;
+    }
 
-h2{
-    color: white;
-    font-size: 1.7vw;
-    font-weight: 800;
-}
+    .label-float{
+        width: 70%;
+        height: 70%;
+        text-align:left;
+        color: white;
+        font-family: 'Bakbak One', sans-serif;
+        font-family: 'Inter', sans-serif;
+        left: 70%;
+        top: 50%;
+        border: 0;
+    }
+    
+    .justify button{
+        position: center;
+        width: 50%;
+        height: 30px;
+        cursor: pointer;
+        background: #2e2e2e;
+        color: white;
+        font-family: 'Bakbak One', sans-serif;
+        font-family: 'Inter', sans-serif;
+        left: 70%;
+        top: 50%;
+        border: 0;
+    }
 
-.inicio{
-    position: absolute;
-    margin-left: 28vw;
-}
-
-.sobre{
-    position: absolute;
-    margin-left: 45vw;
-}
-
-#login_btn{
-    width: 15%;
-    background-color: #626161;
-    color: white;
-    margin-left: 60vw;
-    font-size: 1.5vw;
-    font-weight: 800;
-    border: 0;
-}
-
-span{
-    color: white;
-    font-size: 1.3vw;
-    font-weight: 800;
-}
-
-.resgatar{
-    position: absolute;
-    margin-left: 83vw;
-}
-
-#nav2{
-    height: 4vw;
-    background-color: black;
-    margin-top: 5%;
-    margin-left: 8%;
-    margin-right: 8%;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-}
-
-.rodape{
-    margin-top: auto;
-    width: 100%;
-    height: 7vw;
-    background-color: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    align-items: center;
-}
-
-p{
-    color: white;
-    font-size: 1vw;
-}
-
-.ano{
-    position: absolute;
-    margin-top: 5%;
-}
-
-h5{
-    color: white;
-    font-size: 1.4vw;
-    font-weight: 800;
-}
-
-.reembolso{
-    position: absolute;
-    margin-left: 18vw;
-}
-
-.suporte{
-    position: absolute;
-    margin-left: 36vw;
-}
-
-.termos{
-    position: absolute;
-    margin-left: 52vw;
-}
-
-.contato{
-    position: absolute;
-    margin-left: 73.5vw;
-}
-
-#ag_logo2{
-    position: absolute;
-    width: 6vw;
-    height: 6vw;
-    color: black;
-    margin-left: 90vw;}
+    
+    h4{
+        width: 50%;
+        height: 30px;
+        cursor: pointer;
+        background: #2e2e2e;
+        color: white;
+        font-family: 'Bakbak One', sans-serif;
+        font-family: 'Inter', sans-serif;
+        left: 70%;
+        top: 50%;
+        border: 0;
+    }
+    .container .card p{
+        text-align:left;
+        color: white;
+        font-family: 'Bakbak One', sans-serif;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .label-float{
+        text-align:left;
+        color: white;
+        font-family: 'Bakbak One', sans-serif;
+        font-family: 'Inter', sans-serif;
+        left: 70%;
+        top: 50%;
+        border: 0;
+        height: 30%;
+    }
+    
+    form input[type=text],
+    form input[type=password]{
+        height: 60px;
+        width: 50px;
+        height: 10px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+    }
+        
+    .container .card .entrar{
+        position:center;
+        cursor: pointer;
+        background: #2e2e2e;
+        color: white;
+        font-family: 'Bakbak One', sans-serif;
+        font-family: 'Inter', sans-serif;
+        left: 80%;
+        top: 80%;
+        border: 0;
+    }
+    
+    body{
+        background-color:#2e2e2e;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0;
+    }
+    
+    #nav{
+        width: 100%;
+        height: 7vw;
+        background-color: black;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        align-items: center;
+    }
+    
+    #ag_logo{
+        position: absolute;
+        width: 9%;
+        height: 100%;
+        color: black;
+        margin-left: 1vw;
+    }
+    
+    h2{
+        color: white;
+        font-size: 1.7vw;
+        font-weight: 800;
+    }
+    
+    .inicio{
+        position: absolute;
+        margin-left: 28vw;
+    }
+    
+    .sobre{
+        position: absolute;
+        margin-left: 45vw;
+    }
+    
+    #login_btn{
+        width: 15%;
+        background-color: #626161;
+        color: white;
+        margin-left: 60vw;
+        font-size: 1.5vw;
+        font-weight: 800;
+        border: 0;
+    }
+    
+    span{
+        color: white;
+        font-size: 1.3vw;
+        font-weight: 800;
+    }
+    
+    .resgatar{
+        position: absolute;
+        margin-left: 83vw;
+    }
+    
+    #nav2{
+        height: 4vw;
+        background-color: black;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+    }
+    
+    .rodape{
+        margin-top: auto;
+        width: 100%;
+        height: 7vw;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    p{
+        color: white;
+        font-size: 1vw;
+    }
+    
+    .ano{
+        position: absolute;
+        margin-top: 5%;
+    }
+    
+    h5{
+        color: white;
+        font-size: 1.4vw;
+        font-weight: 800;
+    }
+    
+    .reembolso{
+        position: absolute;
+        margin-left: 18vw;
+    }
+    
+    .suporte{
+        position: absolute;
+        margin-left: 36vw;
+    }
+    
+    .termos{
+        position: absolute;
+        margin-left: 52vw;
+    }
+    
+    .contato{
+        position: absolute;
+        margin-left: 73.5vw;
+    }
+    
+    #ag_logo2{
+        position: absolute;
+        width: 6vw;
+        height: 6vw;
+        color: black;
+        margin-left: 90vw;
+    }

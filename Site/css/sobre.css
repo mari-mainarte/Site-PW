@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2e2e2e;
+}
+
+/*barra de navegação*/
+#nav{
+    width: 100%;
+    height: 7vw;
+    background-color: black;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+
+#ag_logo{
+    position: absolute;
+    width: 9%;
+    height: 100%;
+    color: black;
+    margin-left: 1vw;
+}
+
+h2{
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.inicio{
+    position: absolute;
+    margin-left: 28vw;
+}
+
+a{
+    margin-bottom: 1.7vw;
+}
+
+.sobre{
+    position: absolute;
+    margin-left: 30.5vw;
+}
+
+#login_btn{
+    width: 15%;
+    background-color: #626161;
+    color: white;
+    margin-left: 35vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    border: 0;
+    margin-top: 40px;
+}
+
+span{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 800;
+}
+
+.resgatar{
+    position: absolute;
+    margin-left: 83vw;
+}
+
+/*botão de carrinho*/
+#carrinho_btn{
+    width: 10%;
+    background-color: #626161;
+    color: white;
+    margin-left: 72vw;
+    margin-top: 2%;
+    font-size: 1vw;
+    font-weight: 800;
+    border: 0;
+}
+
+/*baixar app*/
+
+.conteiner-app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 14%;
+    margin-right: 18%;
+    margin-top: 3%;
+}
+
+.baixar_app{
+    height: 20vw;
+}
+
+.gif{
+    height: 20vw;
+    width: 40vw;
+}
+
+/*navegue pela loja*/
+.fundo{
+    margin-top: 10%;
+    width: 100%;
+    height: 25vw;
+    background-image: url("../imgs/fundo_jogos.png");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+h1{
+    color: white;
+    font-size: 2.2vw;
+    font-weight: 800;
+}
+
+.titulo{
+    margin-left: 33%;
+}
+
+h3{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 800;
+}
+
+.texto{
+    margin-top: 1%;
+    text-align: center;
+    padding-left: 36%;
+    padding-right: 36%;
+}
+
+.navegue{
+    width: 15%;
+    height: 2vw;
+    background-color: #000000;
+    color: white;
+    margin-left: 42.5%;
+    margin-top: 2%;
+    font-size: 1vw;
+    font-weight: 800;
+    border: 0;
+    cursor: pointer;
+}
+
+/*comunidade*/
+.comunidade{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    g
+}
+
+.f1 {
+    text-align: center;
+}
+
+.titulo2{
+    margin-left: 8%;
+}
+
+.texto2{
+    margin-top: 1%;
+    margin-left: 27%;
+    margin-right: 19%;
+ 
+}
+
+.comunidade_img{
+    margin-bottom: 10%;
+    width: 35vw;
+    height: 30vw;
+}
+
+/*rodapé*/
+#rodape{
+    width: 100%;
+    height: 7vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    color: white;
+    font-size: 1vw;
+}
+
+.ano{
+    position: absolute;
+    margin-top: 5%;
+}
+
+h5{
+    color: white;
+    font-size: 1.4vw;
+    font-weight: 800;
+}
+
+.reembolso{
+    position: absolute;
+    margin-left: 18vw;
+}
+
+.suporte{
+    position: absolute;
+    margin-left: 36vw;
+}
+
+.termos{
+    position: absolute;
+    margin-left: 52vw;
+}
+
+.contato{
+    position: absolute;
+    margin-left: 73.5vw;
+}
+
+#ag_logo2{
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    color: black;
+    margin-left: 90vw;
+}

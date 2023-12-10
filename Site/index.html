@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <title>Store</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-</head>
+    <script src="js/script.js" defer></script>
 <body>
     <div id="nav">
         <img src="imgs/AG.png" id="ag_logo">
-        <h2 class="inicio">Início</h2>
-        <h2 class="sobre">Sobre</h2>
-        <a href="login.html"><button id="login_btn">Login</button></a>
+        <a href="index.html"><h2 class="inicio">Início</h2></a>
+        <a href="sobre.html"><h2 class="sobre">Sobre</h2></a>
+        <button id="login_btn"> <a href="login.html">Login</a></button>
         <span class="resgatar">Resgatar Gift card</span>
     </div>
     <div id="nav2">
-        <h4 class="categoria">Categorias</h4>
+        <a href="#categorias"><h4 class="categoria">Categorias</h4></a>
         <h4 class="promocoes">Promoções</h4>
         <input type="text" placeholder="Pesquisa" id="barra_pesquisa">
     </div>
     <h1 class="destaques">Destaques:</h1>
-    <img src="imgs/banner_1.png" class="banner">
+    <div class="container-slider">
+        <button id="prev-button"><img src="imgs/seta_d.png"></button>
+        <div class="container-banner">
+            <img src="imgs/banner1.png" class="slider on">
+            <img src="imgs/banner2.png" class="slider">
+            <img src="imgs/banner3.png" class="slider">
+            <img src="imgs/banner4.png" class="slider">
+        </div>
+        <button id="next-button"><img src="imgs/seta_d.png"></button>
+    </div>
     <h1 class="ofertas">Ofertas:</h1>
     <div class="container-ofertas">
         <img src="imgs/nba.png" class="nba_of">
@@ -30,7 +38,7 @@
         <img src="imgs/warzone.png" class="war_of">
     </div>
     <h1 class="categorias">Categorias:</h1>
-    <div class="container-categorias">
+    <div class="container-categorias"  id="categorias">
         <img src="imgs/terror.png" class="cat_terror">
         <img src="imgs/esportes.png" class="cat_esp">
         <img src="imgs/fps.png" class="cat_fps">

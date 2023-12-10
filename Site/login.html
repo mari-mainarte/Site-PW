@@ -3,13 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form contato</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" 
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Sing in</title>
 </head>
 <body>
- 
-    <h1 id="Logado"></h1>
-    <button onclick="sair()">Sair</button>
+    <link rel="stylesheet" href="css/singin.css">
+    <div id="nav">
+        <img src="imgs/AG.png" id="ag_logo">
+        <a href="index.html"><h2 class="inicio">Início</h2></a>
+        <a href="sobre.html"><h2 class="sobre">Sobre</h2></a>
+        <a href="login.html"><button id="login_btn">Login</button></a>
+        <span class="resgatar">Resgatar Gift card</span>
+    </div>
 
-    <script src="./assets/signin.html"></script>
+    <h4>Entrar</h4>
+
+    <div class="container">
+        <div class="card">
+
+    <div id="msgError"></div>
+
+    <div class="label-float">
+        <h6>Nome do usuário</h6>
+    <input type="text" id="usuário" placeholder=""requird>
+    <label id="userLabel" for="usuário"></label>
+        </div>
+
+        <div class="label-float">
+            <h6>Senha</h6>
+            <input type="password" id="senha" placeholder="" required>
+            <label id="senhaLabel" for="senha"></label>
+            <i class="bi bi-eye" aria-hidden="true"></i>
+        </div>
+
+        <div class="justify">
+            <button onclick="entrar()">Entrar</button>
+        </div>
+
+        <div class="justify-center">
+            <hr>
+        </div>
+
+        <p>Não tem conta?
+            <a >
+            Cadastre-se</a>
+        </p>
+</div>
+
+</div>
+<div class="rodape">
+    <p class="ano">@2023 Aesthetic Games</p>
+    <h5 class="reembolso">Rembolsos</h5>
+    <h5 class="suporte">Suporte</h5>
+    <h5 class="termos">Termos legais</h5>
+    <h5 class="contato">Contato</h5>
+    <img src="imgs/AG.png" id="ag_logo2">
+</div>
 </body>
 </html>
