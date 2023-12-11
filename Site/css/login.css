@@ -182,19 +182,20 @@
     }
     
     .entrar{
-      margin-left: 500px;
-      margin-top: 90px;
-      font-size: 30px;
+      margin-left: 35vw;
+      margin-top: 5%;
+      font-size: 2.5vw;
     }
 
     .inicio{
-        margin-top: 7px;
+        position: absolute;
         margin-left: 28vw;
+        margin-bottom: 2vw;
     }
     
     .sobre{
-         margin-left: 238px;
-         margin-top: 7px;
+        position: absolute;
+        margin-left: 30.5vw;
     }
 
     a{
@@ -205,12 +206,10 @@
         width: 15%;
         background-color: #626161;
         color: white;
-        margin-left: 269px;
+        margin-left: 35vw;
         font-size: 1.5vw;
         font-weight: 800;
-        border: none;
-        padding-left: 14px;
-        padding-right: 95px;
+        border: 0;
     }
     
     span{

@@ -101,31 +101,59 @@ h4{
     font-weight: 800;
 }
 
+#categoria{
+    margin-left: 7vw;
+    margin-top: 4%;
+}
+
+.promocoes{
+    margin-top: 3%;
+}
+
+#barra_pesquisa{
+  margin-left: 40vw;
+}
+
+/*destaques*/
+h1{
+    color: white;
+    font-size: 2.7vw;
+    font-weight: 800;
+}
+
+.destaques{
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: 8%;
+    font-size: 5w;
+}
+
 .container-slider{
-  display: flex;
-  width: 70%;
-  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70vw;
+  height: 40vw;
   align-items: center;
   justify-content: center;
-  gap: 20rem;
-  margin-bottom: 170px;
-  margin-left: 270px;
+  margin-bottom: 10%;
+  margin-left: 15%;
 }
 
 .container-banner{
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
+    width: 70vw;
+    height: 35vw;
 }
 
 .slider{
   opacity: 0;
   transition: opacity .2s;
-  width: 65%;
+  width: 70vw;
   position: absolute;
-  height: 65%;
-  margin-left: 20px;
+  height: 35vw;
 }
 
 .slider:hover{
@@ -142,43 +170,57 @@ h4{
     cursor: pointer;
 }
 
-#prev-button img, #next-button img{
-    width: 80%;
-    height: 80%;
+#prev-button img{
+    width: 5vw;
+    height: 7vw;
+}
+
+#next-button img{
+    width: 5vw;
+    height: 7vw;
+}
+
+#prev-button{
+    margin-right: 79vw;
 }
 
 #next-button{
     transform: rotate(180deg);
-    margin-left: 100px;
-    margin-bottom: 10px;
+    position: absolute;
+    margin-left: 72vw;
 }
 
-#prev-button{
-    margin-right: 40px;
-}
 
 /*ofertas*/
 .ofertas{
     margin-top: 5%;
     margin-bottom: 2%;
     margin-left: 8%;
-    font-size: 30px
+    font-size: 5w;
 }
 
 .container-ofertas{
-    justify-content: space-between;
-    margin-left: 8%;
-    margin-right: 8%;
-    justify-content: center;
-    margin-bottom: 220px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+    justify-content: center;
 }
 
 .slider2{
     transition: transform .2s;
-    margin-right: 50px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    width: 14vw;
+    height: 20vw;
+}
+
+.slider2-on{
+    width: 14vw;
+    height: 20vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 
 .slider2:hover{
@@ -190,23 +232,20 @@ h4{
     border: none;
     background-color: transparent;
     cursor: pointer;
-    width: 60px;
-    height: 100px;
-    margin-top: 80px;
+    width: 5vw;
 }
 
-#prev-button2 img, #next-button2 img{
-    width: 60px;
-    height: 100px;
+#prev-button2 img{
+    height: 7vw;
+
 }
 
-#prev-button{
-    margin-right: 80px;
+#next-button2 img{
+    height: 7vw;
 }
 
 #next-button2{
     transform: rotate(180deg);
-    margin-left: 10px;
 }
 
 .categoria{
@@ -225,40 +264,25 @@ h4{
     width: 12vw;
 }
 
-/*destaques*/
-h1{
-    color: white;
-    font-size: 2.7vw;
-    font-weight: 800;
-}
-
-.destaques{
-    margin-top: 5%;
-    margin-bottom: 0;
-    margin-left: 8%;
-    font-size: 30px
-}
-
 /*categorias*/
 .categorias{
     margin-top: 5%;
     margin-bottom: 2%;
     margin-left: 8%;
-    font-size: 30px
+    font-size: 5w;
 }
 
 .container-categorias{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-right: 8%;
-    margin-bottom: 17%;
+    margin-bottom: 10%;
 }
 
 .container-categorias img{
     transition: transform .2s;
-    width: 20vw;
+    width: 23vw;
 }
 
 .container-categorias img:hover{
