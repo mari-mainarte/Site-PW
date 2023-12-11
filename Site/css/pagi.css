@@ -1,0 +1,157 @@
+
+li {
+    list-style: none;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-left: 8%;
+
+}
+#liPro {
+    display: flex;
+    background-color: black;
+    width: 550px;
+    height: 55px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+#liPro img {
+    width: 100px;
+}
+#info{
+    display: flex;
+    align-items: center;
+}
+#info p{
+    margin-left: 20px;
+}
+#p1 {
+    margin: 1rem;
+    font-size: 15px;
+}
+#p2 {
+    padding: 10px;
+    width: 55px;
+    background-color: green;
+    font-size: 15px;
+}
+#precos {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#preco1{
+    display: flex;
+    align-items: center;
+}
+#preco2 {
+    display: flex;
+    align-items: center;
+}
+#p3 {
+    font-size: 18px;
+    color: #524C4C;
+}
+#p4 {
+    font-size: 20px;
+    margin-top: 2px;
+    color: green;
+}
+#Filtros {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-right: 8%;
+}
+#Filtros input {
+    width: 25px;
+    height: 17px;
+    background-color: #c81b1b;
+}
+#filPreco {
+    margin: 1rem;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 300px;
+}
+#filPreco h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+#precoFil {
+    margin: 1rem;
+}
+
+#precoFil li{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#precoFil li p{
+    margin-left: 6px;
+    font-size: 15px;
+}
+#filIdioma {
+    margin: 1rem;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 300px;
+}
+#filIdioma h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+#idiomaFil {
+    margin: 1rem;
+}
+#idiomaFil li{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#idiomaFil li p{
+    margin-left: 6px;
+    font-size: 15px;
+}
+#filGenero {
+    margin: 1rem;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 300px;
+}
+#filGenero h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+#generoFil {
+    margin: 1rem;
+}
+#generoFil li{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#generoFil li p{
+    margin-left: 6px;
+    font-size: 15px;
+}

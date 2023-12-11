@@ -1,40 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', cursive;
+}
+
+#usuário{
+    padding-left: 20px;
+    height: 40px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    width: 560px;
+}
+
+#senha{
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    width: 560px;
+}
+
+#email{
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    width: 560px;
+}
+
+.user-name{
+    margin-top: 0px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.user-email{
+    margin-top: 0px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.passwd{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+#nav{
+    width: 100%;
+    height: 7vw;
+    background-color: black;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+
+#esq-senha{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #626161;
+    margin-left: 480px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
 .card{
     background-color: black;
-    max-width: 500px;
+    max-width: 750px;
     width: 70%;
-    padding: 20px;
     position: absolute;
-    left: 50%;
-    top: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Bakbak One', sans-serif;
-    font-family: 'Inter', sans-serif;
-    }
+    padding-top: 50px;
+    margin-top: 260px;
+    margin-left: 970px;
+    height: 450px;
+}
 
-    .label-float{
-        width: 70%;
-        height: 70%;
-        text-align:left;
-        color: white;
-        font-family: 'Bakbak One', sans-serif;
-        font-family: 'Inter', sans-serif;
-        left: 70%;
-        top: 50%;
-        border: 0;
-    }
+.card2{
+    background-color: black;
+    max-width: 750px;
+    width: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 30px;
+    margin-top: 260px;
+    margin-left: 970px;
+    height: 450px;
+}
+
+.label-float{
+    text-align:left;
+    color: white;
+    border: 0;
+    padding-left: 50px;
+}
     
     .justify button{
         position: center;
-        width: 50%;
-        height: 30px;
+        width: 30%;
+        height: 40px;
         cursor: pointer;
-        background: #2e2e2e;
+        background: #626161;
         color: white;
-        font-family: 'Bakbak One', sans-serif;
-        font-family: 'Inter', sans-serif;
-        left: 70%;
-        top: 50%;
         border: 0;
+        margin-bottom: 30px;
+        margin-left: 220px;
+        font-size: 20px;
+        font-weight: 600;
     }
 
     
@@ -44,35 +126,21 @@
         cursor: pointer;
         background: #2e2e2e;
         color: white;
-        font-family: 'Bakbak One', sans-serif;
-        font-family: 'Inter', sans-serif;
         left: 70%;
         top: 50%;
         border: 0;
     }
+
     .container .card p{
         text-align:left;
         color: white;
-        font-family: 'Bakbak One', sans-serif;
-        font-family: 'Inter', sans-serif;
     }
     
-    .label-float{
-        text-align:left;
-        color: white;
-        font-family: 'Bakbak One', sans-serif;
-        font-family: 'Inter', sans-serif;
-        left: 70%;
-        top: 50%;
-        border: 0;
-        height: 30%;
-    }
     
     form input[type=text],
     form input[type=password]{
         height: 60px;
         width: 50px;
-        height: 10px;
         border: 1px solid #ccc;
         padding-left: 10px;
         margin: 10px 0;
@@ -83,13 +151,11 @@
         cursor: pointer;
         background: #2e2e2e;
         color: white;
-        font-family: 'Bakbak One', sans-serif;
-        font-family: 'Inter', sans-serif;
         left: 80%;
         top: 80%;
         border: 0;
     }
-    
+
     body{
         background-color:#2e2e2e;
         margin: 0;
@@ -99,19 +165,6 @@
         flex-direction: column;
         min-height: 100vh;
         margin: 0;
-    }
-    
-    #nav{
-        width: 100%;
-        height: 7vw;
-        background-color: black;
-        align-items: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        justify-content: space-between;
-        position: sticky;
-        top: 0;
-        align-items: center;
     }
     
     #ag_logo{
@@ -128,24 +181,36 @@
         font-weight: 800;
     }
     
+    .entrar{
+      margin-left: 500px;
+      margin-top: 90px;
+      font-size: 30px;
+    }
+
     .inicio{
-        position: absolute;
+        margin-top: 7px;
         margin-left: 28vw;
     }
     
     .sobre{
-        position: absolute;
-        margin-left: 45vw;
+         margin-left: 238px;
+         margin-top: 7px;
+    }
+
+    a{
+        text-decoration: none;
     }
     
     #login_btn{
         width: 15%;
         background-color: #626161;
         color: white;
-        margin-left: 60vw;
+        margin-left: 269px;
         font-size: 1.5vw;
         font-weight: 800;
-        border: 0;
+        border: none;
+        padding-left: 14px;
+        padding-right: 95px;
     }
     
     span{
@@ -184,7 +249,7 @@
     
     p{
         color: white;
-        font-size: 1vw;
+        font-size: 15px;
     }
     
     .ano{
