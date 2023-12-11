@@ -16,9 +16,7 @@
     <div id="nav2">
         <a href="#categorias"><h4 class="categoria">Categorias</h4></a>
         <h4 class="promocoes">Promoções</h4>
-        <a href="pesquisa.html">
-        <input type="text" placeholder="Pesquisa" id="barra_pesquisa">
-    </a>
+        <input type="text" placeholder="Pesquisa" id="barra_pesquisa" onclick="search()">
     </div>
     <h1 class="destaques">Destaques:</h1>
     <div class="container-slider">
@@ -33,11 +31,13 @@
     </div>
     <h1 class="ofertas">Ofertas:</h1>
     <div class="container-ofertas">
-        <img src="imgs/nba.png" class="nba_of">
-        <img src="imgs/outlast.png" class="outlast_of">
-        <img src="imgs/fifa.png" class="fifa_of">
-        <img src="imgs/h_k.png" class="hf_of">
-        <img src="imgs/warzone.png" class="war_of">
+        <button id="prev-button2"><img src="imgs/seta_d.png"></button>
+        <img src="imgs/nba.png" class="slider2">
+        <img src="imgs/outlast.png" class="slider2 on">
+        <img src="imgs/fifa.png" class="slider2 on">
+        <img src="imgs/h_k.png" class="slider2 on">
+        <img src="imgs/warzone.png" class="slider2 on">
+        <button id="next-button2"><img src="imgs/seta_d.png"></button>
     </div>
     <h1 class="categorias">Categorias:</h1>
     <div class="container-categorias"  id="categorias">

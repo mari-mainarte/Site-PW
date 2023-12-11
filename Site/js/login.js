@@ -1,16 +1,21 @@
-if (!localStorage.getItem("token")) {
-    alert("Você precisa estar logado para acessar essa página");
-    window.location.href = "./assets/Site/signin.html"
+let user = document.getElementById("usuário")
+let passwd = document.getElementById("senha")
+
+function entrar(){
+    if(user.value == 'admin' && passwd.value == '123456'){
+        alert("Bem vindo de volta!")
+        window.location.href="../index.html";
+    }else{
+        alert("Conta inexistente, crie sua conta!")
+        window.location.href="../cadastro.html";
+    }
 }
 
-let userLogado = JSON.parse(localStorage.getItem("userLogado"));
+function esq_senha(){
+    alert("Sua senha é 123456")
+}
 
-let logado = document.querySelector("#Logado");
-Logado.innerHTML = 'Olá ${userLogado.nome}';
-
-function sair(){
-    localStorage.removeItem("token");
-    localStorage.removeItem("userLogado");
-    window.location.href="./assets/Site/signin.html";
-
+function cadastrar(){
+    alert("Seja bem vindo!")
+    window.location.href="../index.html";
 }

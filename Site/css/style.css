@@ -103,11 +103,13 @@ h4{
 
 .container-slider{
   display: flex;
-  width: 100%;
-  min-height: 100vh;
+  width: 70%;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
   gap: 20rem;
+  margin-bottom: 170px;
+  margin-left: 270px;
 }
 
 .container-banner{
@@ -120,9 +122,14 @@ h4{
 .slider{
   opacity: 0;
   transition: opacity .2s;
-  width: 75%;
+  width: 65%;
   position: absolute;
-  height: 75%;
+  height: 65%;
+  margin-left: 20px;
+}
+
+.slider:hover{
+   cursor: pointer;
 }
 
 .on{
@@ -142,12 +149,64 @@ h4{
 
 #next-button{
     transform: rotate(180deg);
-    margin-left: 70px;
+    margin-left: 100px;
     margin-bottom: 10px;
 }
 
 #prev-button{
-    margin-right: 70px;
+    margin-right: 40px;
+}
+
+/*ofertas*/
+.ofertas{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    font-size: 30px
+}
+
+.container-ofertas{
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: center;
+    margin-bottom: 220px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.slider2{
+    transition: transform .2s;
+    margin-right: 50px;
+}
+
+.slider2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#prev-button2, #next-button2{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 60px;
+    height: 100px;
+    margin-top: 80px;
+}
+
+#prev-button2 img, #next-button2 img{
+    width: 60px;
+    height: 100px;
+}
+
+#prev-button{
+    margin-right: 80px;
+}
+
+#next-button2{
+    transform: rotate(180deg);
+    margin-left: 10px;
 }
 
 .categoria{
@@ -180,29 +239,6 @@ h1{
     font-size: 30px
 }
 
-
-/*ofertas*/
-.ofertas{
-    margin-top: 5%;
-    margin-bottom: 2%;
-    margin-left: 8%;
-    font-size: 30px
-}
-
-.container-ofertas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    margin-left: 8%;
-    margin-right: 8%;
-    justify-content: center;
-    margin-bottom: 230px;
-}
-
-.container-ofertas img{
-    width: 15vw;
-}
-
 /*categorias*/
 .categorias{
     margin-top: 5%;
@@ -221,11 +257,17 @@ h1{
 }
 
 .container-categorias img{
+    transition: transform .2s;
     width: 20vw;
 }
 
+.container-categorias img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 /*rodapé*/
-.rodape{
+#rodape{
     width: 100%;
     height: 7vw;
     background-color: black;
@@ -319,70 +361,4 @@ span{
 .contato{
     position: absolute;
     margin-left: 73.5vw;
-}
-
-#liPro {
-    display: flex;
-    align-items: center; 
-    justify-content:space-between;
-}
-
-#info{
-    align-items:baseline;
-    justify-content: space-between;
-}
-
-#info .p1{
-    align-items:baseline;
-    justify-content: space-between;
-    margin-right: 100%;
-}
-
-#precos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
-    margin-right: 15px;
-}
-
-#preco1,
-#preco2 {
-    margin-top: 5px; 
-}
-
-.Car {
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-}
-
-.carrinho{
-    width: 400px;
-    height: min-content;
-    background-color: black;
-    padding: 35px;
-}
-
-.carrinho .cabecalho{
-    display: flex;
-}
-
-.carrinho .cabecalho h3{
-    color: aliceblue;
-}
-
-.carrinho .cabecalho button{
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background: #ddddde50;
-    border: 2px solid #ddddde;
-    border-radius: 8px;
-
 }

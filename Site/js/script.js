@@ -34,3 +34,7 @@ function prevSlider() {
 
 btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
+
+function search(){
+  window.location.href="../pesquisa.html";
+}
