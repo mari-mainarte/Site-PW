@@ -4,10 +4,10 @@ let passwd = document.getElementById("senha")
 function entrar(){
     if(user.value == 'admin' && passwd.value == '123456'){
         alert("Bem vindo de volta!")
-        window.location.href="../index.html";
+        window.location.href="../Site/index.html";
     }else{
         alert("Conta inexistente, crie sua conta!")
-        window.location.href="../cadastro.html";
+        window.location.href="../Site/cadastro.html";
     }
 }
 
@@ -17,5 +17,5 @@ function esq_senha(){
 
 function cadastrar(){
     alert("Seja bem vindo!")
-    window.location.href="../index.html";
+    window.location.href="../Site/index.html";
 }
