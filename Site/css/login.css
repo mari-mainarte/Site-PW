@@ -7,48 +7,15 @@
     font-family: 'Rubik', cursive;
 }
 
-#usuário{
-    padding-left: 20px;
-    height: 40px;
-    margin-left: 45px;
-    margin-bottom: 30px;
-    width: 560px;
-}
-
-#senha{
-    height: 40px;
-    padding-left: 20px;
-    margin-left: 45px;
-    margin-bottom: 30px;
-    width: 560px;
-}
-
-#email{
-    height: 40px;
-    padding-left: 20px;
-    margin-left: 45px;
-    margin-bottom: 30px;
-    width: 560px;
-}
-
-.user-name{
-    margin-top: 0px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-}
-
-.user-email{
-    margin-top: 0px;
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-left: 40px;
-}
-
-.passwd{
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-left: 40px;
+body{
+    background-color:#2e2e2e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 #nav{
@@ -64,58 +31,103 @@
     align-items: center;
 }
 
+#ag_logo{
+    position: absolute;
+    width: 9%;
+    height: 100%;
+    color: black;
+    margin-left: 1vw;
+}
+
+h2{
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.inicio{
+    position: absolute;
+    margin-left: 28vw;
+    margin-bottom: 2vw;
+}
+
+.sobre{
+    position: absolute;
+    margin-left: 30.5vw;
+}
+
+#login_btn{
+    width: 15%;
+    background-color: #626161;
+    color: white;
+    margin-left: 35vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    border: 0;
+}
+
+#usuário{
+    height: 3vw;
+    margin-left: 2.3vw;
+    margin-bottom: 2vw;
+    width: 90%;
+    padding-left: 1vw;
+}
+
+#senha{
+    height: 3vw;
+    margin-left: 2.3vw;
+    margin-bottom: 2vw;
+    width: 90%;
+    padding-left: 1vw;
+}
+
+.user-name{
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+    margin-left: 2.5vw;
+}
+
+.passwd{
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+    margin-left: 2.5vw;
+}
+
 #esq-senha{
-    font-size: 12px;
+    font-size: 1vw;
     text-decoration: underline;
     color: #626161;
-    margin-left: 480px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-left: 34vw;
+    margin-bottom: 2vw;
     cursor: pointer;
 }
 
 .card{
     background-color: black;
-    max-width: 750px;
-    width: 70%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    padding-top: 50px;
-    margin-top: 260px;
-    margin-left: 970px;
-    height: 450px;
-}
-
-.card2{
-    background-color: black;
-    max-width: 750px;
-    width: 70%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    padding-top: 30px;
-    margin-top: 260px;
-    margin-left: 970px;
-    height: 450px;
+    width: 50vw;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 5%;
 }
 
 .label-float{
     text-align:left;
     color: white;
-    border: 0;
-    padding-left: 50px;
+    padding: 2vw;
 }
     
     .justify{
         position: center;
         width: 30%;
-        height: 40px;
+        height: 3vw;
         cursor: pointer;
         background: #626161;
         color: white;
         border: 0;
         margin-bottom: 30px;
-        margin-left: 220px;
-        font-size: 20px;
+        margin-left: 16vw;
+        font-size: 1.7vw;
         font-weight: 600;
     }
 
@@ -130,86 +142,15 @@
         top: 50%;
         border: 0;
     }
-
-    .container .card p{
-        text-align:left;
-        color: white;
-    }
-    
-    
-    form input[type=text],
-    form input[type=password]{
-        height: 60px;
-        width: 50px;
-        border: 1px solid #ccc;
-        padding-left: 10px;
-        margin: 10px 0;
-    }
-        
-    .container .card .entrar{
-        position:center;
-        cursor: pointer;
-        background: #2e2e2e;
-        color: white;
-        left: 80%;
-        top: 80%;
-        border: 0;
-    }
-
-    body{
-        background-color:#2e2e2e;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        margin: 0;
-    }
-    
-    #ag_logo{
-        position: absolute;
-        width: 9%;
-        height: 100%;
-        color: black;
-        margin-left: 1vw;
-    }
-    
-    h2{
-        color: white;
-        font-size: 1.7vw;
-        font-weight: 800;
-    }
     
     .entrar{
-      margin-left: 35vw;
+      margin-left: 38vw;
       margin-top: 5%;
       font-size: 2.5vw;
     }
 
-    .inicio{
-        position: absolute;
-        margin-left: 28vw;
-        margin-bottom: 2vw;
-    }
-    
-    .sobre{
-        position: absolute;
-        margin-left: 30.5vw;
-    }
-
     a{
         text-decoration: none;
-    }
-    
-    #login_btn{
-        width: 15%;
-        background-color: #626161;
-        color: white;
-        margin-left: 35vw;
-        font-size: 1.5vw;
-        font-weight: 800;
-        border: 0;
     }
     
     span{
@@ -245,10 +186,14 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .bi-eye{
+        width: 0.5vw;
+    }
     
     p{
         color: white;
-        font-size: 15px;
+        font-size: 1.2vw;
     }
     
     .ano{
